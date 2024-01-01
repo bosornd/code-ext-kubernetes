@@ -1,0 +1,40 @@
+{
+  "name": "kubernetes-yaml-snippets",
+  "displayName": "Kubernetes YAML Snippets",
+  "description": "Snippets for Kubernetes object manifests (YAML format)",
+  "publisher": "BoSoRnD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bosornd/code-ext-kubernetes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bosornd/code-ext-kubernetes/issues",
+    "email": "drajin.cho@bosornd.com"
+  },
+  "homepage": "https://k8s.bosornd.com",
+  "author": {
+    "name": "Yong Jin, Cho",
+    "email": "drajin.cho@bosornd.com"
+  },
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "icon": "Kubernetes.png",
+  "pricing": "Free",
+  "categories": [
+    "Extension Packs",
+    "Snippets"
+  ],
+  "extensionPack": [
+    "redhat.vscode-yaml"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "yaml",
+        "path": "./snippets/kubernetes-yaml.code-snippets"
+      }
+    ]
+  }
+}
